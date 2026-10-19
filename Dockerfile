@@ -46,7 +46,7 @@ RUN cp /usr/local/bin/python3.13 /app/.venv/bin/python3.13 && \
 RUN apk add --update --no-cache catatonit
 
 # Stage 3: Final image
-FROM alpine:3.22
+FROM alpine:3.24
 
 ARG FASTMAIL_CLI_VERSION=2.2.2
 ARG BUILD_DATE
